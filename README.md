@@ -24,7 +24,7 @@ git clone --depth 1 https://github.com/<your_username>/NSS-MMMUT.git
 **3.** Navigate to the project directory :file_folder: .
 
 ```
-cd ALGO-ADDICT
+cd NSS-MMMUT
 
 ```
 
