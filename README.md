@@ -80,7 +80,7 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-**15** Voila! You have made a PR to the ALGO_ADDICT. Sit back patiently and relax while the your PR is reviewed.
+**15** Voila! You have made a PR to the NSS-MMMUT. Sit back patiently and relax while the your PR is reviewed.
 
 <p align="center"><img src="https://media.giphy.com/media/5mCQOcUfywmyI/giphy.gif" width=35%></p>
 
