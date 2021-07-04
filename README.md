@@ -1,7 +1,7 @@
 # NSS-MMMUT ❤️🔥
 <hr>
 
-<h1> Website Making Details </h1>
+<h1>🎯 Website Making Details </h1>
 
 ✔️This is an Open Source Project <br>
 ✔️Participants which are part of NSS can easily contribute to it <br>
