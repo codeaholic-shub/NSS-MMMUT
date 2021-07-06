@@ -93,7 +93,7 @@ In case of any help, please free to contact [us](shubhankar.poddar789@gmail.com)
 <table>
   <tbody><tr>
     <td align="center"><a href="https://github.com/codeaholic-shub"><img alt="" src="https://avatars.githubusercontent.com/codeaholic-shub" width="130px;"><br><sub><b> Shubhankar Poddar </b></sub></a><br><a href="https://github.com/codeaholic-shub/NSS-MMMUT/commits?author=codeaholic-shub" title="Code">💻 </a></td> </a></td>
- <td align="center"><a href="https://github.com/JyotiKumari2"><img alt="" src="https://avatars.githubusercontent.com/JyotiKuamri2" width="130px;"><br><sub><b> Jyoti Kumari </b></sub></a><br><a href="https://github.com/JyotiKumari2/NSS-MMMUT/commits?author=JyotiKumari2" title="Code">💻 </a></td> </a></td>
+ <td align="center"><a href="https://github.com/JyotiKumari2"><img alt="" src="https://avatars.githubusercontent.com/JyotiKumari2" width="130px;"><br><sub><b> Jyoti Kumari </b></sub></a><br><a href="https://github.com/JyotiKumari2/NSS-MMMUT/commits?author=JyotiKumari2" title="Code">💻 </a></td> </a></td>
 </tbody></table>
 
 
