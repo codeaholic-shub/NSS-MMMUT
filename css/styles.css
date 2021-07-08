@@ -2,6 +2,16 @@ body {
   background-color: black;
 }
 
+#mmmut-tag{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.navbar-brand{
+  animation: animateLogo 3s forwards infinite;
+  -webkit-animation: animateLogo 5s alternate infinite ease-in-out;
+}
+
 .nav-item {
   padding: 0 15px;
   font-size: 15px;
@@ -9,11 +19,27 @@ body {
 }
 .dropdown-menu {
   font-size: 20px;
-  background-color: transparent;
-  color: white;
+  background-color: rgb(209, 203, 203);
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 .navbar {
   margin: 0 auto;
   padding: 16px;
+}
+
+.nav-item:hover{
+
+  border-bottom: 2px solid black;
+}
+
+@keyframes animateLogo {
+  to{
+    transform: rotate(0deg) scale(.9);
+   
+}
+from{
+      transform: rotate(360deg)  scale(1.1);
+     
+}
 }
