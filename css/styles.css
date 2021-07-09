@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 #mmmut-tag{
@@ -11,7 +11,6 @@ body {
   animation: animateLogo 3s forwards infinite;
   -webkit-animation: animateLogo 5s alternate infinite ease-in-out;
 }
-
 .nav-item {
   padding: 0 15px;
   font-size: 15px;
@@ -29,9 +28,35 @@ body {
 }
 
 .nav-item:hover{
+  border-bottom: 2px solid black;
+}
+section {
+  text-align: center;
+  height: 100vh;
+}
+section:nth-child(odd) {
+  background-color: bisque;
+}
+
+.btn-to-top{
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  bottom: 40px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: crimson;
+  box-shadow: 0px 0px 10px rgb(0, 0,0.25);
+  outline: none;
+  border:none ;
+  cursor: pointer;
+}
+=======
 
   border-bottom: 2px solid black;
 }
+
 
 @keyframes animateLogo {
   to{
