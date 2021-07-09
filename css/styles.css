@@ -1,7 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
 }
-
 #mmmut-tag{
   font-size: 1.5rem;
   font-weight: bolder;
@@ -26,7 +25,6 @@ body {
   margin: 0 auto;
   padding: 16px;
 }
-
 .nav-item:hover{
   border-bottom: 2px solid black;
 }
@@ -37,7 +35,6 @@ section {
 section:nth-child(odd) {
   background-color: bisque;
 }
-
 .btn-to-top{
   text-align: center;
   position: fixed;
@@ -61,4 +58,7 @@ from{
       transform: rotate(360deg)  scale(1.1);
      
 }
+}
+*{
+  scroll-behavior: smooth;
 }
