@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+.nav-item {
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.dropdown-menu {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+}
+.navbar {
+  margin: 0 auto;
+  padding: 16px;
+}
