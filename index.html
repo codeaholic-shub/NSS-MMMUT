@@ -83,7 +83,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#3"
-              ><i class="fa fa-clone"></i> Services</a
+              ><i class="fa fa-image"></i> Gallery</a
             >
           </li>
 
@@ -96,7 +96,7 @@
       </div>
     </nav>
     <!-- navbar end -->
-    
+
     <!-- btn top -->
     <button class="btn-to-top">
       <i class="fa fa-arrow-up"></i>
@@ -104,84 +104,82 @@
 
     <!-- section 0 start-->
     <section class="main" id="0">
+      <!-- Flipping Images Start-->
+      <div class="grids">
+        <div class="card-one">
+          <div class="card">
+            <div class="card__side card__side--front" id="front-1"></div>
+            <div class="card__side card__side--back" id="back-1"></div>
+          </div>
+        </div>
+        <div class="card-two">
+          <div class="card">
+            <div class="card__side card__side--front" id="front-2"></div>
+            <div class="card__side card__side--back" id="back-2"></div>
+          </div>
+        </div>
+        <div class="card-three">
+          <div class="card">
+            <div class="card__side card__side--front" id="front-3"></div>
+            <div class="card__side card__side--back" id="back-3"></div>
+          </div>
+        </div>
+        <div class="card-four">
+          <div class="card">
+            <div class="card__side card__side--front" id="front-4"></div>
+            <div class="card__side card__side--back" id="back-4"></div>
+          </div>
+        </div>
+        <div class="card-five">
+          <div class="card">
+            <div class="card__side card__side--front" id="front-5"></div>
+            <div class="card__side card__side--back" id="back-5"></div>
+          </div>
+        </div>
+        <div class="card-six">
+          <div class="card">
+            <div class="card__side card__side--front" id="front-6"></div>
+            <div class="card__side card__side--back" id="back-6"></div>
+          </div>
+        </div>
+        <div class="card-seven">
+          <div class="card">
+            <div class="card__side card__side--front" id="front-7"></div>
+            <div class="card__side card__side--back" id="back-7"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Flipping images end -->
+    </section>
+    <!-- section 0 ends -->
 
-    <!-- Flipping Images Start-->
-    <div class="grids">
-      <div class="card-one">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-1"></div>
-          <div class="card__side card__side--back" id="back-1"></div>
-        </div>
-      </div>
-      <div class="card-two">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-2"></div>
-          <div class="card__side card__side--back" id="back-2"></div>
-        </div>
-      </div>
-      <div class="card-three">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-3"></div>
-          <div class="card__side card__side--back" id="back-3"></div>
-        </div>
-      </div>
-      <div class="card-four">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-4"></div>
-          <div class="card__side card__side--back" id="back-4"></div>
-        </div>
-      </div>
-      <div class="card-five">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-5"></div>
-          <div class="card__side card__side--back" id="back-5"></div>
-        </div>
-      </div>
-      <div class="card-six">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-6"></div>
-          <div class="card__side card__side--back" id="back-6"></div>
-        </div>
-      </div>
-      <div class="card-seven">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-7"></div>
-          <div class="card__side card__side--back" id="back-7"></div>
-        </div>
-      </div>
-    </div>
-    <!-- Flipping images end -->
-  </section>
-  <!-- section 0 ends -->
+    <!-- section 1 start-->
+    <section class="team" id="1">
+      <br />
+      <h1>Teams</h1>
+    </section>
+    <!-- section 1 ends -->
 
-   <!-- section 1 start-->
-  <section class="team" id="1">
-    <br>
-    <h1>Teams</h1>
-  </section>
-  <!-- section 1 ends -->
+    <!-- section 2 start-->
+    <section class="events" id="2">
+      <br />
+      <h1>Events</h1>
+    </section>
+    <!-- section 2 ends -->
 
-   <!-- section 2 start-->
-  <section class="events" id="2">
-    <br>
-    <h1>Events</h1>
-  </section>
-  <!-- section 2 ends -->
-
-  <!-- section 3 start-->
-  <section class="Services" id="3">
-    <br>
-    <h1>Services</h1>
-   </section>
-   <!-- section 3 ends -->
+    <!-- section 3 start-->
+    <section class="Services" id="3">
+      <br />
+      <h1>Services</h1>
+    </section>
+    <!-- section 3 ends -->
 
     <!-- section 4 start-->
-  <section class="contact-us" id="4">
-    <br>
-    <h1>Contact US</h1>
-  </section>
-  <!-- section 4 ends -->
-
+    <section class="contact-us" id="4">
+      <br />
+      <h1>Contact US</h1>
+    </section>
+    <!-- section 4 ends -->
 
     <!-- boostrap js start -->
     <script
@@ -204,19 +202,17 @@
 
     <!-- btn-to-top script start -->
     <script>
-      const btn=document.querySelector('.btn-to-top');
-      btn.addEventListener("click",function(){
+      const btn = document.querySelector(".btn-to-top");
+      btn.addEventListener("click", function () {
         // window.scrollTo(0,0);
-        
+
         window.scrollTo({
           top: 0,
           left: 0,
-          behavior: "smooth"
+          behavior: "smooth",
         });
-
-      })
+      });
     </script>
     <!-- btn-to-top script ends-->
-    
   </body>
 </html>
