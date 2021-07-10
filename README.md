@@ -111,6 +111,7 @@ Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** 
  <td align="center"><a href="https://github.com/codeaholic-shub"><img alt="" src="https://avatars.githubusercontent.com/codeaholic-shub" width="130px;"><br><sub><b> Shubhankar Poddar </b></sub></a><br><a href="https://github.com/codeaholic-shub/NSS-MMMUT/commits?author=codeaholic-shub" title="Code">💻 </a></td> </a></td>
  <td align="center"><a href="https://github.com/JyotiKumari2"><img alt="" src="https://avatars.githubusercontent.com/JyotiKumari2" width="130px;"><br><sub><b> Jyoti Kumari </b></sub></a><br><a href="https://github.com/JyotiKumari2/NSS-MMMUT/commits?author=JyotiKumari2" title="Code">💻 </a></td> </a></td>
  <td align="center"><a href="https://github.com/ashumsd7"><img alt="" src="https://avatars.githubusercontent.com/ashumsd7" width="130px;"><br><sub><b> Aashutosh Anand Tiwari </b></sub></a><br><a href="https://github.com/ashumsd7/NSS-MMMUT/commits?author=ashumsd7" title="Code">💻 </a></td> </a></td>
+ <td align="center"><a href="https://github.com/altyon-get"><img alt="" src="https://avatars.githubusercontent.com/altyon-get" width="130px;"><br><sub><b> Altyon-Get </b></sub></a><br><a href="https://github.com/altyon-get/NSS-MMMUT/commits?author=altyon-get" title="Code">💻 </a></td> </a></td>
 </tbody></table>
 
 # Connect Us On 🤝:
