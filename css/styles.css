@@ -1,7 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
 }
-
 #mmmut-tag{
   font-size: 1.5rem;
   font-weight: bolder;
@@ -26,7 +25,6 @@ body {
   margin: 0 auto;
   padding: 16px;
 }
-
 .nav-item:hover{
   border-bottom: 2px solid black;
 }
@@ -37,18 +35,15 @@ section {
 .events{
   background-color: bisque;
 }
-
 .btn-to-top{
   text-align: center;
   position: fixed;
   right: 10px;
-  bottom: 40px;
+  bottom: 50px;
   height: 50px;
-  width: 50px;
-  border-radius: 100%;
+  width: 48px;
   background-color: crimson;
   box-shadow: 0px 0px 10px rgb(0, 0,0.25);
-  outline: none;
   border:none ;
   cursor: pointer;
 }
@@ -63,5 +58,34 @@ from{
      
 }
 }
-
-
+*{
+  scroll-behavior: smooth;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: rgb(209, 203, 203);
+  overflow: hidden;
+  padding: 5px;
+}
+footer h2{
+   float: left;
+   margin:2px 4px;
+}
+.igh:hover,
+.fbh:hover,
+.twh:hover{
+  color: black;
+}
+.igh{
+  color:  #8a3ab9;
+  margin: 0px 4px;
+}
+.twh{
+  color: #00acee;
+  margin: 0px 4px;
+}
+.fbh{
+  color: #3b5998;
+  margin: 0px 4px;
+}
