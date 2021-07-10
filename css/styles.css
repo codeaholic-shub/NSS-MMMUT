@@ -32,7 +32,7 @@ section {
   text-align: center;
   height: 100vh;
 }
-section:nth-child(odd) {
+.events{
   background-color: bisque;
 }
 .btn-to-top{
@@ -47,6 +47,7 @@ section:nth-child(odd) {
   border:none ;
   cursor: pointer;
 }
+
 @keyframes animateLogo {
   to{
     transform: rotate(0deg) scale(.9);
