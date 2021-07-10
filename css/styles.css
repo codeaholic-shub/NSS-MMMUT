@@ -34,7 +34,7 @@ section {
   text-align: center;
   height: 100vh;
 }
-section:nth-child(odd) {
+.events{
   background-color: bisque;
 }
 
@@ -52,11 +52,6 @@ section:nth-child(odd) {
   border:none ;
   cursor: pointer;
 }
-=======
-
-  border-bottom: 2px solid black;
-}
-
 
 @keyframes animateLogo {
   to{
@@ -68,3 +63,5 @@ from{
      
 }
 }
+
+
