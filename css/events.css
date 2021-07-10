@@ -1,0 +1,12 @@
+
+body {
+  margin: 0px;
+}
+section {
+  text-align: center;
+  padding: 10px 0px;
+  height: 90vh;
+}
+section:nth-child(odd) {
+  background-color: bisque;
+}
