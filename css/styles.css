@@ -61,31 +61,3 @@ from{
 *{
   scroll-behavior: smooth;
 }
-footer {
-  position: sticky;
-  bottom: 0;
-  background-color: rgb(209, 203, 203);
-  overflow: hidden;
-  padding: 5px;
-}
-footer h2{
-   float: left;
-   margin:2px 4px;
-}
-.igh:hover,
-.fbh:hover,
-.twh:hover{
-  color: black;
-}
-.igh{
-  color:  #8a3ab9;
-  margin: 0px 4px;
-}
-.twh{
-  color: #00acee;
-  margin: 0px 4px;
-}
-.fbh{
-  color: #3b5998;
-  margin: 0px 4px;
-}
