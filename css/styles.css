@@ -35,6 +35,7 @@ section {
 .events{
   background-color: bisque;
 }
+
 .btn-to-top{
   text-align: center;
   position: fixed;
@@ -60,4 +61,18 @@ from{
 }
 *{
   scroll-behavior: smooth;
+}
+
+
+@media(max-width:768px){
+  .events{
+    height:31.25rem;
+    width:97rem;
+    margin-top:9.375rem;
+  }
+  .about{
+    height:31.25rem;
+    width:97rem;
+    margin-top:80.625rem;
+  }
 }
