@@ -11,7 +11,7 @@ body
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: #161623;
+    background-color:black;
     min-height: 100vh; 
 }
 section::before
@@ -141,4 +141,11 @@ h2
     color: rgb(255, 255, 255);
     background: linear-gradient(#001aff,#bebdbdd0);
     clip-path: circle(40% at center 100%);
+    
+}
+@media (max-width:768px){
+    h2{
+        width:450px;
+        height:35px;
+    }
 }
