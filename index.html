@@ -24,6 +24,7 @@
 
     <link rel="stylesheet" href="css/flippingCard.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <title>NSS-MMMUT</title>
   </head>
 
@@ -156,12 +157,75 @@
   <section class="about" id="1">
     <br>
     <h1>About Us</h1>
+    <section class="about section" id="about" style="width:100px; height:50px;" >
+      <div class="about__container bd-grid" style="height:200px;width:400px;">
+        <div class="about__img" style="padding-left: 100px;">
+          <img src="images/NSS-logo.png" alt="About Image" style="
+            width: 200px;
+            height: 200px;
+             " />
+        </div>
+        
+        <div style="
+        width: 500px;
+        height:218px;
+        ">
+          <h2 class="about__subtitle" style="padding-left: 50px;">
+            Welcome to the National Service Scheme.
+          </h2>
+          <p class="about__text" style="padding-left: 50px; font-size:15px;">
+            The National Service Scheme (NSS) is an Indian government-sponsored
+            public service program conducted by the Ministry of Youth Affairs[1]
+            and Sports of the Government of India. Popularly known as NSS, the
+            scheme was launched in Gandhiji's Centenary year in 1969. Aimed at
+            developing student's personality through community service, NSS is a
+            voluntary association of young people in Colleges, Universities and
+            at +2 level working for a campus-community (esp. Villages) linkage.
+          </p>
+          <h2 class="about__subtitle">Our mission</h2>
+          <p class="ourmission_txt" style="padding-left: 50px; font-size:15px;">
+            The programme aims to instill the idea of social welfare in
+            students, and to provide service to society without bias. NSS
+            volunteers work to ensure that everyone who is needy gets help to
+            enhance their standard of living and lead a life of dignity. In
+            doing so, volunteers learn from people in villages how to lead a
+            good life despite a scarcity of resources. it also provides help in
+            natural and man-made disasters by providing food, clothing and first
+            aid to the disaster's victims.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--NOTICE BOARD    -->
+  <div class="content" style="width:500px; height:351px; margin-left:800px; margin-top:100px;">
+    <h1 class="header" align="center">NOTIFICATIONS</h1>
+    <marquee
+      behavior="scroll"
+      direction="up"
+      scrollamount="8"
+      onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
+      onmouseout="this.setAttribute('scrollamount',8,0);this.start();"
+      class="movingbody"
+    >
+      <script>
+        for (var i = 1; i <= 5; i++) {
+          document.write(
+            '<p class="m-par">' +
+              i +
+              ". Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. </p>"
+          );
+        }
+      </script>
+    </marquee>
+  </div>
+  <!--NOTICE BOARD OVER    ->
     
   </section>
   <!-- section 1 ends -->
 
    <!-- section 2 start-->
-  <section class="events" id="2">
+  <section class="events" id="2" style="margin-top:150px;">
     <br>
     <h1>Events</h1>
   </section>
@@ -177,7 +241,7 @@
     <!-- section 4 start-->
   <section class="contact-us" id="4">
     <br>
-    <h1>Contact US</h1>
+    <h1> Contact Us </h1>
   </section>
   <!-- section 4 ends -->
 
