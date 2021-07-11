@@ -1,5 +1,5 @@
 # NSS-MMMUT ❤️🔥
-![NSS-MMMUT](https://user-images.githubusercontent.com/65807708/124395788-b8dcbd00-dd23-11eb-924d-973bb2cb15c2.png)
+![NSS-MMMUT](https://socialify.git.ci/codeaholic-shub/NSS-MMMUT/image?description=1&descriptionEditable=Not%20Me%20But%20You%20!&font=Bitter&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fcodeaholic-shub%2FNSS-MMMUT%2Fmaster%2Fimages%2Flogo.jpeg&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Dark)
 
 <hr>
 
@@ -112,6 +112,10 @@ Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** 
  <td align="center"><a href="https://github.com/JyotiKumari2"><img alt="" src="https://avatars.githubusercontent.com/JyotiKumari2" width="130px;"><br><sub><b> Jyoti Kumari </b></sub></a><br><a href="https://github.com/JyotiKumari2/NSS-MMMUT/commits?author=JyotiKumari2" title="Code">💻 </a></td> </a></td>
  <td align="center"><a href="https://github.com/ashumsd7"><img alt="" src="https://avatars.githubusercontent.com/ashumsd7" width="130px;"><br><sub><b> Aashutosh Anand Tiwari </b></sub></a><br><a href="https://github.com/ashumsd7/NSS-MMMUT/commits?author=ashumsd7" title="Code">💻 </a></td> </a></td>
  <td align="center"><a href="https://github.com/altyon-get"><img alt="" src="https://avatars.githubusercontent.com/altyon-get" width="130px;"><br><sub><b> Altyon-Get </b></sub></a><br><a href="https://github.com/altyon-get/NSS-MMMUT/commits?author=altyon-get" title="Code">💻 </a></td> </a></td>
+ <td align="center"><a href="https://github.com/aniketchaurasia"><img alt="" src="https://avatars.githubusercontent.com/aniketchaurasia" width="130px;"><br><sub><b> Aniket Chaurasia </b></sub></a><br><a href="https://github.com/aniketchaurasia/NSS-MMMUT/commits?author=aniketchaurasia" title="Code">💻 </a></td> </a></td>
+  <td align="center"><a href="https://github.com/arpit456jain"><img alt="" src="https://avatars.githubusercontent.com/arpit456jain" width="130px;"><br><sub><b> Arpit Jain </b></sub></a><br><a href="https://github.com/arpit456jain/NSS-MMMUT/commits?author=arpit456jain" title="Code">💻 </a></td> </a></td>
+ 
+ 
 </tbody></table>
 
 # Connect Us On 🤝:
