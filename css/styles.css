@@ -65,12 +65,17 @@ from{
 
 @media(max-width:768px){
 .events{
+<<<<<<< HEAD
   margin-top:12.5rem;
+=======
+  margin-top:200px;
+>>>>>>> 3d04b571541f1e326efda714d1508cbdbe12784f
 }
 .about{
   margin-top:600px;
 }
 }
+<<<<<<< HEAD
 
 
 <!-- Notice Board -->
@@ -120,3 +125,5 @@ body {
   height:401px;
   width:1349px;
 }
+=======
+>>>>>>> 3d04b571541f1e326efda714d1508cbdbe12784f
