@@ -65,14 +65,10 @@ from{
 
 
 @media(max-width:768px){
-  .events{
-    height:31.25rem;
-    width:97rem;
-    margin-top:9.375rem;
-  }
-  .about{
-    height:31.25rem;
-    width:97rem;
-    margin-top:80.625rem;
-  }
+.events{
+  margin-top:200px;
+}
+.about{
+  margin-top:600px;
+}
 }
