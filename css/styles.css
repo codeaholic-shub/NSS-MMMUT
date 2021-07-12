@@ -93,8 +93,6 @@ footer h2{
 /* for events section  */
 /* ------------------- */
 .event-container{
-  margin-top: 6%;
-  margin-left: 6%;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
 }
@@ -118,6 +116,10 @@ footer h2{
   font-size: 150%;
   color: rgb(153, 135, 135);
 }
+.subbox:hover{
+  box-shadow: 0 15px 20px -5px rgb(214, 117, 117);
+  cursor: pointer;
+}
 #item1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -139,6 +141,9 @@ footer h2{
     width: 18rem;
     margin: 20px 8px;
   }
+  .event-container{
+    margin-top: 100px;
+  }
 }
 @media screen and (max-width: 900px) {
   .subbox h2 {
@@ -149,7 +154,7 @@ footer h2{
     width: 16rem;
   }
   .event-container{
-    margin-top: 60px;
+    margin-top: 120px;
   }
 }
 @media screen and (max-width: 750px) {
@@ -160,6 +165,9 @@ footer h2{
   .subbox{
     box-shadow: 0 20px 20px -10px rgb(199, 82, 82);
   }
+  .event-container{
+    margin-top: 140px;
+  }
 }
 @media screen and (max-width: 680px) {
   .subbox h2 {
@@ -167,7 +175,7 @@ footer h2{
   }
   .subbox {
     margin: 2px 10px;
-    width: 100%;
+    width: 99%;
     height: 70px;
     box-shadow: 0px 4px -2px -4px rgb(141, 104, 104);
   }
@@ -179,6 +187,10 @@ footer h2{
   #tohide {
     display: grid;
   }
+  .event-container{
+    margin-top: 40px;
+  }
+ 
 }
 @media screen and (max-width: 480px) {
   .subbox h2 {
@@ -198,6 +210,7 @@ footer h2{
   #tohide {
     display: grid;
   }
+  
 }
 @media screen and (max-width: 400px) {
   #item1,#item2 {
@@ -205,7 +218,6 @@ footer h2{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
- 
 }
 /* ------------------- */
 /* for events section ends */
