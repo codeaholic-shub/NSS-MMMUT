@@ -93,6 +93,8 @@ footer h2{
 /* for events section  */
 /* ------------------- */
 .event-container{
+  margin-top: 6%;
+  margin-left: 6%;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
 }
