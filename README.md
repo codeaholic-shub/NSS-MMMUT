@@ -114,8 +114,8 @@ Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** 
  <td align="center"><a href="https://github.com/altyon-get"><img alt="" src="https://avatars.githubusercontent.com/altyon-get" width="130px;"><br><sub><b> Altyon-Get </b></sub></a><br><a href="https://github.com/altyon-get/NSS-MMMUT/commits?author=altyon-get" title="Code">💻 </a></td> </a></td>
  <td align="center"><a href="https://github.com/aniketchaurasia"><img alt="" src="https://avatars.githubusercontent.com/aniketchaurasia" width="130px;"><br><sub><b> Aniket Chaurasia </b></sub></a><br><a href="https://github.com/aniketchaurasia/NSS-MMMUT/commits?author=aniketchaurasia" title="Code">💻 </a></td> </a></td>
   <td align="center"><a href="https://github.com/arpit456jain"><img alt="" src="https://avatars.githubusercontent.com/arpit456jain" width="130px;"><br><sub><b> Arpit Jain </b></sub></a><br><a href="https://github.com/arpit456jain/NSS-MMMUT/commits?author=arpit456jain" title="Code">💻 </a></td> </a></td>
- 
- 
+  <td align="center"><a href="https://github.com/connectnitesh"><img alt="" src="https://avatars.githubusercontent.com/connectnitesh" width="130px;"><br><sub><b> Nitesh Rawat  </b></sub></a><br><a href="https://github.com/connectnitesh/NSS-MMMUT/commits?author=connectnitesh" title="Code">💻 </a></td> </a></td>
+  
 </tbody></table>
 
 # Connect Us On 🤝:
