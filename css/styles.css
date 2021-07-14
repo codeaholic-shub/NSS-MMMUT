@@ -30,12 +30,11 @@ body {
 }
 section {
   text-align: center;
-  height: 100vh;
+  height: 100%;
 }
-.events{
+section:nth-child(odd){
   background-color: bisque;
-}
-
+} 
 .btn-to-top{
   text-align: center;
   position: fixed;
@@ -63,71 +62,69 @@ from{
   scroll-behavior: smooth;
 }
 
-@media(max-width:768px){
-.events{
-<<<<<<< HEAD
-  margin-top:12.5rem;
-=======
-  margin-top:200px;
->>>>>>> 3d04b571541f1e326efda714d1508cbdbe12784f
+/*  */
+/* about us  */
+.flex-container{
+  display: flex;
 }
-.about{
-  margin-top:600px;
+.aboutus .box{
+  /* border: 2px solid black; */
+  height: 100%;
+  width: 100%;
 }
+#box1 p{
+  font-size:15px;
+  padding: 10px;
 }
-<<<<<<< HEAD
-
-
-<!-- Notice Board -->
-* {
-  margin: 0;
-  padding: 0px;
+#box1,#box2{
+  padding: 20px;
 }
-
-body {
-  background-color: white;
-}
-.content {
-  width: 25%;
+#box2 .content_{
+  margin-top: 80px;
+  width:600px; 
+  height:380px; 
   box-shadow: 1px 1px 10px 2px rgba(17, 28, 72, 0.76);
   border-radius: 5px;
-  overflow: hidden;
-  display: inline-block;
   background-color: white;
 }
-.header {
+#box2 .header_{
   background: #000080;
   color: white;
   padding: 15px 0px;
   font-size: 1rem;
 }
-
-.movingbody {
+#box2 .movingbody_{
   padding: 4px;
-  height: 300px;
+  height: 320px;
 }
-.m-par {
+#box2 .m-par_{
   text-align: center;
   padding: 6px;
   border-bottom: 1px solid #afafaf;
   font-size:15px;
 }
-
-@media (max-width: 767px) {
-  .content {
-    width: 90%;
-    margin: 5%;
-    box-sizing: border-box;
-    float: none;
+@media screen and (max-width:1025px) {
+  .aboutus .flex-container{
+    display: block;
+    text-align: center;
+  }
+  #box2 .content_{
+    margin-top: 10px;
+    width:100%; 
+  }
+  .box2{
+    padding: 0 10%;
   }
 }
-.about{
-  height:401px;
-  width:1349px;
+@media screen and (max-width: 650px) {
+  #box2 .content_{
+    margin-top: 10px;
+    width:100%; 
+  }
 }
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/*  */
+/*  */
+
 
 #logo1 {
     height: 80.156px;
@@ -228,5 +225,15 @@ body {
         text-align: center;
     }
 }
-=======
->>>>>>> 3d04b571541f1e326efda714d1508cbdbe12784f
+
+
+/* these should be removed when corresponding sections added  */
+.events{
+  height: 90vh;
+}
+.gallery{
+  height: 90vh;
+}
+.contact-us{
+  height: 90vh;
+}
