@@ -12,7 +12,7 @@ display: flex;
 justify-content:center;
 align-items: center;
 flex-direction: column;
-background: url(../images/unnamed.jpg);
+background: url("https://i.postimg.cc/7hDGkNjv/black-brick-wall-textured-background.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
