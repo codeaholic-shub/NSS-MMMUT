@@ -155,196 +155,203 @@
   <!-- section 0 ends -->
 
   <!-- section 1.1 start-->
-    <section class="aboutus" id="1.1">
-      <br>
-      <h1>About Us</h1>
-      <div class="flex-container">
-        <div class="box" id="box1">
-          <div class="about__img">
-            <img src="images/NSS-logo.png" alt="About Image" style="
+  <section class="aboutus" id="1.1">
+    <br>
+    <h1>About Us</h1>
+    <div class="flex-container">
+      <div class="box" id="box1">
+        <div class="about__img">
+          <img src="images/NSS-logo.png" alt="About Image" style="
             width: 200px;
             height: 200px; margin-bottom: 10px;
              " />
-             <br>
-            <h2 class="about_subtitle">
-              Welcome to the National Service Scheme.
-            </h2>
-            <p class="about__text">
-              The National Service Scheme (NSS) is an Indian government-sponsored
-              public service program conducted by the Ministry of Youth Affairs[1]
-              and Sports of the Government of India. Popularly known as NSS, the
-              scheme was launched in Gandhiji's Centenary year in 1969. Aimed at
-              developing student's personality through community service, NSS is a
-              voluntary association of young people in Colleges, Universities and
-              at +2 level working for a campus-community (esp. Villages) linkage.
-            </p>
-            <h2 class="about__subtitle">Our mission</h2>
-            <p class="ourmission_txt">
-              The programme aims to instill the idea of social welfare in
-              students, and to provide service to society without bias. NSS
-              volunteers work to ensure that everyone who is needy gets help to
-              enhance their standard of living and lead a life of dignity. In
-              doing so, volunteers learn from people in villages how to lead a
-              good life despite a scarcity of resources. it also provides help in
-              natural and man-made disasters by providing food, clothing and first
-              aid to the disaster's victims.
-            </p>
+          <br>
+          <h2 class="about_subtitle">
+            Welcome to the National Service Scheme.
+          </h2>
+          <p class="about__text">
+            The National Service Scheme (NSS) is an Indian government-sponsored
+            public service program conducted by the Ministry of Youth Affairs[1]
+            and Sports of the Government of India. Popularly known as NSS, the
+            scheme was launched in Gandhiji's Centenary year in 1969. Aimed at
+            developing student's personality through community service, NSS is a
+            voluntary association of young people in Colleges, Universities and
+            at +2 level working for a campus-community (esp. Villages) linkage.
+          </p>
+          <h2 class="about__subtitle">Our mission</h2>
+          <p class="ourmission_txt">
+            The programme aims to instill the idea of social welfare in
+            students, and to provide service to society without bias. NSS
+            volunteers work to ensure that everyone who is needy gets help to
+            enhance their standard of living and lead a life of dignity. In
+            doing so, volunteers learn from people in villages how to lead a
+            good life despite a scarcity of resources. it also provides help in
+            natural and man-made disasters by providing food, clothing and first
+            aid to the disaster's victims.
+          </p>
+        </div>
+      </div>
+      <div class="box" id="box2">
+        <!--NOTICE BOARD    -->
+        <div class="content_">
+          <h1 class="header_">NOTIFICATIONS</h1>
+          <marquee behavior="scroll" direction="up" scrollamount="8"
+            onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
+            onmouseout="this.setAttribute('scrollamount',8,0);this.start();" class="movingbody_">
+            <script>
+              for (var i = 1; i <= 5; i++) {
+                document.write(
+                  '<p class="m-par_">' +
+                  i +
+                  ". Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. </p>"
+                );
+              }
+            </script>
+          </marquee>
+        </div>
+  </section>
+  <!-- section 1.1 ends -->
+
+  <!-- section 2 start-->
+  <section class="events" id="2">
+    <br>
+    <h1>Events</h1>
+  </section>
+  <!-- section 2 ends -->
+
+  <!-- section 3 start-->
+  <section class="gallery" id="3">
+    <br>
+    <h1>Gallery</h1>
+  </section>
+  <!-- section 3 ends -->
+
+  <!-- section 4 start-->
+  <section class="contact-us" id="4">
+    <br>
+    <h1> Contact Us </h1>
+    <div class="content"></div>
+    <p> Not Me , But You ! </p>
+    </div>
+    <div class="contactForm">
+      <form action="https://formsubmit.co/shubhamojha4444@gmail.com" method="POST">
+        <h2> Send Message </h2>
+        <div class="inputBox">
+          <input type="text" name="name" required="required">
+          <span>Full Name</span>
+        </div>
+        <div class="inputBox">
+          <input type="email" name="email" required="required">
+          <span>Email</span>
+        </div>
+        <div class="inputBox">
+          <textarea type="text" name="message" required="required"></textarea>
+          <span> Type Your Message ... </span>
+        </div>
+        <div class="inputBox">
+          <input type="submit" name="" value="Send">
+        </div>
+        <!-- ||||||||||||||| -->
+
+        <input type="hidden" name="_subject" value="New submission!">
+        <!--  -->
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html"> <!-- <<<--web address of thanku page not file adress -->
+        <input type="hidden" name="_subject" value="NSS: Recived message">
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- |||||||||||||||| -->
+      </form>
+    </div>
+    </div>
+  </section>
+  <!-- section 4 ends -->
+
+
+
+  <!-- boostrap js start -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+  <!-- bootstrap js ends -->
+
+  <!-- btn-to-top script start -->
+  <script>
+    const btn = document.querySelector('.btn-to-top');
+    btn.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+      });
+    })
+  </script>
+  <!-- btn-to-top script ends-->
+
+  <!-- preloader script starts-->
+  <script>
+    function close_loader() {
+      document.getElementById('pre-loader').style.display = 'none';
+    }
+  </script>
+  <!-- preloader script end-->
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="left">
+            <div class="left-content">
+              <img id="logo1" src="images/logo.jpeg" alt="LogoNSS">
+              <img id="logo2" src="images/mmm.png" alt="LogoMMM">
+            </div>
+            <div class="left-content">
+
+              <p class="nss">
+                National Service Scheme(NSS),<br> an initiative by the<br> Government of India,<br> provides hands-on
+                <br>
+                experience in community services <br> to young students.
+              </p>
+
+            </div>
           </div>
         </div>
-        <div class="box" id="box2">
-          <!--NOTICE BOARD    -->
-          <div class="content_">
-            <h1 class="header_">NOTIFICATIONS</h1>
-            <marquee behavior="scroll" direction="up" scrollamount="8"
-              onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
-              onmouseout="this.setAttribute('scrollamount',8,0);this.start();" class="movingbody_">
-              <script>
-                for (var i = 1; i <= 5; i++) {
-                  document.write(
-                    '<p class="m-par_">' +
-                    i +
-                    ". Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. </p>"
-                  );
-                }
-              </script>
-            </marquee>
+
+        <div class="grid-item">
+          <div class="right">
+            <h3 class="underline-small"> <strong> Contact Us :- </strong> </h3>
+            <p id="details">
+              <i class="fa fa-map-marker" aria-hidden="true"></i> MMMUT, Gorakhpur, U.P, India <br>
+              <i class="fa fa-envelope" aria-hidden="true"></i><strong> Email: </strong> nss20.mmmut@gmail.com <br>
+            </p>
+            <div class="social-links">
+              <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+
+              <a href="https://www.facebook.com/nssmmmutgkp/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/nss_mmmut/" class="instagram"><i class="fa fa-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> -->
+              <a href="https://t.me/joinchat/TZMqcZzqtCfJbP0v" class="linkedin"><i class="fa fa-telegram"></i></a>
+            </div>
+
+
           </div>
-          </section>
-          <!-- section 1.1 ends -->
-
-          <!-- section 2 start-->
-          <section class="events" id="2">
-            <br>
-            <h1>Events</h1>
-          </section>
-          <!-- section 2 ends -->
-
-          <!-- section 3 start-->
-          <section class="gallery" id="3">
-            <br>
-            <h1>Gallery</h1>
-          </section>
-          <!-- section 3 ends -->
-
-          <!-- section 4 start-->
-          <section class="contact-us" id="4">
-            <br>
-            <h1> Contact Us </h1>
-            <div class="content"></div>
-            <p> Not Me , But You !  </p>
-            </div>
-              <div class="contactForm" >
-                <form> 
-                  <h2> Send Message </h2>
-                  <div class="inputBox">
-                  <input type="text" name="name" required="required">
-                  <span>Full Name</span>
-                  </div>
-                  <div class="inputBox">
-                    <input type="email" name="email" required="required">
-                    <span>Email</span>
-                  </div>
-                  <div class="inputBox">
-                    <textarea type="text" required="required"></textarea>
-                   <span> Type Your Message ... </span>
-                  </div>
-                  <div class="inputBox">
-                    <input type="submit" name="" value="Send">
-                  </div>
-                </form>
-              </div>
-            </div>
-          </section>
-          <!-- section 4 ends -->
-
-
-
-          <!-- boostrap js start -->
-          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-          <script src="scripts.js"></script>
-          <!-- bootstrap js ends -->
-
-          <!-- btn-to-top script start -->
-          <script>
-            const btn = document.querySelector('.btn-to-top');
-            btn.addEventListener("click", function () {
-              window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: "smooth"
-              });
-            })
-          </script>
-          <!-- btn-to-top script ends-->
-
-          <!-- preloader script starts-->
-          <script>
-            function close_loader() {
-              document.getElementById('pre-loader').style.display = 'none';
-            }
-          </script>
-          <!-- preloader script end-->
-
-          <footer id="footer">
-            <div class="footer-top">
-              <div class="grid-container">
-                <div class="grid-item">
-                  <div class="left">
-                    <div class="left-content">
-                      <img id="logo1" src="images/logo.jpeg" alt="LogoNSS">
-                      <img id="logo2" src="images/mmm.png" alt="LogoMMM">
-                    </div>
-                    <div class="left-content">
-
-                      <p class="nss">
-                        National Service Scheme(NSS),<br> an initiative by the<br> Government of India,<br> provides hands-on
-                        <br>
-                        experience in community services <br> to young students.
-                      </p>
-
-                    </div>
-                  </div>
-                </div>
-
-                <div class="grid-item">
-                  <div class="right">
-                    <h3 class="underline-small"> <strong> Contact Us :- </strong> </h3>
-                    <p id="details">
-                      <i class="fa fa-map-marker" aria-hidden="true"></i> MMMUT, Gorakhpur, U.P, India <br>
-                      <i class="fa fa-envelope" aria-hidden="true"></i><strong> Email: </strong> nss20.mmmut@gmail.com <br>
-                    </p>
-                    <div class="social-links">
-                      <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-
-                      <a href="https://www.facebook.com/nssmmmutgkp/" class="facebook"><i
-                          class="fa fa-facebook"></i></a>
-                      <a href="https://www.instagram.com/nss_mmmut/" class="instagram"><i
-                          class="fa fa-instagram"></i></a>
-                      <!-- <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> -->
-                      <a href="https://t.me/joinchat/TZMqcZzqtCfJbP0v" class="linkedin"><i
-                          class="fa fa-telegram"></i></a>
-                    </div>
-
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr>
-            <div class="container">
-              <div class="copyright">
-                &copy; Copyright <strong>NSS MMMUT , GKP</strong>. All Rights Reserved <br>  Designed by <a href="https://github.com/codeaholic-shub/NSS-MMMUT" style="color: #f82249"> Shubhankar & Team </a>
-              </div>
-            </div>
-          </footer>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>NSS MMMUT , GKP</strong>. All Rights Reserved <br> Designed by <a
+          href="https://github.com/codeaholic-shub/NSS-MMMUT" style="color: #f82249"> Shubhankar & Team </a>
+      </div>
+    </div>
+  </footer>
 
 
 </body>
