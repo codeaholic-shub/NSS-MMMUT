@@ -46,7 +46,7 @@
       left: 30rem;
     }
   </style>
-</head>
+  
 
 </head>
 
@@ -229,28 +229,25 @@
           <!-- section 4 start-->
           <section class="contact-us" id="4">
             <br>
-            <h1> Contact Us </h1>
+            <h1 class="contactHeading"> Contact Us </h1>
             <div class="content"></div>
-            <p> Not Me , But You !  </p>
+            <p class="moto"> Not Me , But You !  </p>
             </div>
               <div class="contactForm" >
-                <form> 
-                  <h2> Send Message </h2>
-                  <div class="inputBox">
-                  <input type="text" name="name" required="required">
-                  <span>Full Name</span>
-                  </div>
-                  <div class="inputBox">
-                    <input type="email" name="email" required="required">
-                    <span>Email</span>
-                  </div>
-                  <div class="inputBox">
-                    <textarea type="text" required="required"></textarea>
-                   <span> Type Your Message ... </span>
-                  </div>
-                  <div class="inputBox">
-                    <input type="submit" name="" value="Send">
-                  </div>
+                <form  class="contact-form" method="POST" onsubmit="return submitEmailForm(this);">
+                    <div class="inputBox">
+                      <input type="text" name="name" placeholder="name" class="contact-form-input" required />
+                    </div>
+                    <div class="inputBox">
+                      <input type="email" name="email" placeholder="email" class="contact-form-input" required />
+                    </div>
+                    <div class="inputBox">
+                      <textarea name="message" class="contact-form-input" placeholder="MESSAGE" required></textarea>
+                    </div>
+                    <div class="inputBox">
+                      <button type="submit">send</button>
+                    </div>
+                   
                 </form>
               </div>
             </div>
@@ -299,7 +296,7 @@
                 <div class="grid-item">
                   <div class="left">
                     <div class="left-content">
-                      <img id="logo1" src="images/logo.jpeg" alt="LogoNSS">
+                      <img id="logo1" src="images/NSS-logo.png" alt="LogoNSS">
                       <img id="logo2" src="images/mmm.png" alt="LogoMMM">
                     </div>
                     <div class="left-content">
