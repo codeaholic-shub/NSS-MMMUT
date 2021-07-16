@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv = "refresh" content = "4; url = index.html" />
+    <meta http-equiv = "refresh" content = "6; url = index.html" />
 
     <title>Thankyou | NSS-MMMUT</title>
     <!-- favicon -->
@@ -14,6 +14,18 @@
     <h1>Hey!! We have received your message.<h1>
     <h2>We will connect with you soon....</h2>
     <br>
-    <h4 style="color: rgb(85, 82, 82);">Redirecting to home page : <span style="color: rgb(0, 0, 0);">NSS-MMMUT<span></h4>
+    <h4 style="color: rgb(53, 48, 48);">Redirecting to : 
+        <span style="color: rgb(0, 0, 0);"><a href="index.html" style="color: black;"> NSS-MMMUT</a>
+        </span> in
+            <span id="sec"></span>
+        </h4>
 </body>
+<script>
+    var now=0;
+    var x = setInterval(function() {
+      var seconds = 6 - now;
+      document.getElementById("sec").innerHTML =seconds + "s ";
+      now++;
+    }, 1000);
+    </script>
 </html>
