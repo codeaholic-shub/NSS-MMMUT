@@ -36,6 +36,7 @@ section:nth-child(odd) {
   background-color: bisque;
 }
 .btn-to-top {
+  z-index: 99911;
   text-align: center;
   position: fixed;
   right: 10px;
@@ -181,6 +182,10 @@ section:nth-child(odd) {
 #footer .footer-top .social-links a:hover {
   background: #f82249;
   color: #fff;
+}
+
+.grid-container .right{
+  margin-top: 40px;
 }
 
 @media (min-width: 880px) {
