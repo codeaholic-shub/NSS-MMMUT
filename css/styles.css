@@ -245,3 +245,29 @@ section:nth-child(odd) {
 .gallery {
   height: 90vh;
 }
+
+
+/*
+Gallery
+*/
+.gallery{
+  height:600px;
+}
+.galleries{
+  margin:10px 50px;
+}
+.galleries img{
+  width: 230px;
+  padding:5px;
+  filter:grayscale(100%);
+  transition:1s;
+}
+.galleries img:hover{
+  filter:grayscale(0);
+  transform:scale(1.1);
+}
+@media(max-width: 768px){
+    .gallery{
+      height: 1400px;
+    }
+}
