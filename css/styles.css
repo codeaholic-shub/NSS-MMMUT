@@ -252,6 +252,9 @@ Gallery
 */
 .gallery{
   height:600px;
+  background-image: url(../Photos/gallery_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .galleries{
   margin:10px 50px;
@@ -268,6 +271,6 @@ Gallery
 }
 @media(max-width: 768px){
     .gallery{
-      height: 1400px;
+      height: 1750px;
     }
 }
