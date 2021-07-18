@@ -41,7 +41,7 @@ section:nth-child(odd) {
   text-align: center;
   position: fixed;
   right: 10px;
-  bottom: 50px;
+  bottom: 20px;
   height: 50px;
   width: 48px;
   background-color: crimson;
