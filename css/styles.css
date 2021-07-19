@@ -3,6 +3,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 #mmmut-tag {
+  color:black;
   font-size: 1.5rem;
   font-weight: bolder;
   margin-top: 10px;
@@ -33,9 +34,7 @@ section {
   text-align: center;
   height: 100%;
 }
-section:nth-child(odd) {
-  background-color: bisque;
-}
+
 .btn-to-top {
   z-index: 99911;
   text-align: center;

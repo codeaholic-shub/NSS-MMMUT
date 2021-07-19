@@ -87,7 +87,7 @@
           </a>
 
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="teams.html" >Year 2020-21</a>
+            <a class="dropdown-item" href="teams.html">Year 2020-21</a>
           </div>
         </li>
         <li class="nav-item">
@@ -108,119 +108,47 @@
   <button class="btn-to-top">
     <i class="fa fa-arrow-up fa-2x"></i>
   </button>
-  <!-- section 0 start-->
-  <section class="main" id="0">
-    <!-- Flipping Images Start-->
-    <div class="grids">
-      <div class="card-one">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-1"></div>
-          <div class="card__side card__side--back" id="back-1"></div>
-        </div>
-      </div>
-      <div class="card-two">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-2"></div>
-          <div class="card__side card__side--back" id="back-2"></div>
-        </div>
-      </div>
-      <div class="card-three">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-3"></div>
-          <div class="card__side card__side--back" id="back-3"></div>
-        </div>
-      </div>
-      <div class="card-four">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-4"></div>
-          <div class="card__side card__side--back" id="back-4"></div>
-        </div>
-      </div>
-      <div class="card-five">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-5"></div>
-          <div class="card__side card__side--back" id="back-5"></div>
-        </div>
-      </div>
-      <div class="card-six">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-6"></div>
-          <div class="card__side card__side--back" id="back-6"></div>
-        </div>
-      </div>
-      <div class="card-seven">
-        <div class="card">
-          <div class="card__side card__side--front" id="front-7"></div>
-          <div class="card__side card__side--back" id="back-7"></div>
-        </div>
-      </div>
-    </div>
-    <!-- Flipping images end -->
-  </section>
-  <!-- section 0 ends -->
 
-  <!-- section 1.1 start-->
-  <section class="aboutus" id="1.1">
+        <!-- section 4 start-->
+  <section class="contact-us" id="4">
     <br>
-    <h1>About Us</h1>
-    <div class="flex-container">
-      <div class="box" id="box1">
-        <div class="about__img">
-          <img src="images/NSS-logo.png" alt="About Image" style="
-            width: 200px;
-            height: 200px; margin-bottom: 10px;
-             " />
-          <br>
-          <h2 class="about_subtitle">
-            Welcome to the National Service Scheme.
-          </h2>
-          <p class="about__text">
-            The National Service Scheme (NSS) is an Indian government-sponsored
-            public service program conducted by the Ministry of Youth Affairs[1]
-            and Sports of the Government of India. Popularly known as NSS, the
-            scheme was launched in Gandhiji's Centenary year in 1969. Aimed at
-            developing student's personality through community service, NSS is a
-            voluntary association of young people in Colleges, Universities and
-            at +2 level working for a campus-community (esp. Villages) linkage.
-          </p>
-          <h2 class="about__subtitle">Our mission</h2>
-          <p class="ourmission_txt">
-            The programme aims to instill the idea of social welfare in
-            students, and to provide service to society without bias. NSS
-            volunteers work to ensure that everyone who is needy gets help to
-            enhance their standard of living and lead a life of dignity. In
-            doing so, volunteers learn from people in villages how to lead a
-            good life despite a scarcity of resources. it also provides help in
-            natural and man-made disasters by providing food, clothing and first
-            aid to the disaster's victims.
-          </p>
+    <h1>  </h1>
+    <div class="content"></div>
+    <p>  </p>
+    </div>
+    <div class="contactForm">
+      <form action="https://formsubmit.co/nss20.mmmut@gmail.com" method="POST">
+        <h2> Send Message </h2>
+        <div class="inputBox">
+          <input type="text" name="name" required="required">
+          <span>Full Name</span>
         </div>
+        <div class="inputBox">
+          <input type="email" name="email" required="required">
+          <span>Email</span>
+        </div>
+        <div class="inputBox">
+          <textarea type="text" name="message" required="required"></textarea>
+          <span> Type Your Message ... </span>
+        </div>
+        <div class="inputBox">
+          <input type="submit" name="" value="Send">
+        </div>
+        <!-- ||||||||||||||| -->
 
-      </div>
-      <div class="box" id="box2">
-        <!--NOTICE BOARD    -->
-        <div class="content_">
-          <h1 class="header_">NOTIFICATIONS</h1>
-          <marquee behavior="scroll" direction="up" scrollamount="8"
-            onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
-            onmouseout="this.setAttribute('scrollamount',8,0);this.start();" class="movingbody_">
-            <script>
-              for (var i = 1; i <= 5; i++) {
-                document.write(
-                  '<p class="m-par_">' +
-                  i +
-                  ". Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. </p>"
-                );
-              }
-            </script>
-          </marquee>
-        </div>
+        <input type="hidden" name="_subject" value="New submission!">
+        <!--  -->
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+        <!-- <<<--web address of thanku page not file adress -->
+        <input type="hidden" name="_subject" value="NSS: Recieved message">
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- |||||||||||||||| -->
+      </form>
+    </div>
+    </div>
   </section>
-  <!-- section 1.1 ends -->
-
-
-
-
+  <!-- section 4 ends -->
   <!-- boostrap js start -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
