@@ -22,6 +22,7 @@ html {
 
 .grids {
   max-width: 136rem;
+  padding: 0px 4px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
