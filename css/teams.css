@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-body
+.team-section
 {
     display: flex;
     justify-content: center;
@@ -14,29 +14,8 @@ body
     background-color:black;
     min-height: 100vh; 
 }
-section::before
-{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%;
-    /*background: linear-gradient(#f00,#f0f);
-    clip-path: circle(30% at right 10%);*/
-}
-section::after
-{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%;
-    /*background: linear-gradient(#2196f3,#e91e63);
-    clip-path: circle(20% at 10% 10%);*/
-}
-.container
+
+.team-container
 {
     position: relative;
     z-index: 1;
@@ -46,7 +25,7 @@ section::after
     flex-wrap: wrap;
     margin: 40px 0;
 }
-.container .card
+.team-container .team-card
 {
     position: relative;
     width: 300px;
@@ -60,7 +39,7 @@ section::after
     align-items: center;
     backdrop-filter: blur(10px);
 }
-.container .card .content
+.team-container .team-card .team-content
 {
     position: relative;
     display: flex;
@@ -70,12 +49,12 @@ section::after
     opacity: 0.5;
     transition: 0.5s;
 }
-.container .card:hover .content
+.team-container .team-card:hover .team-content
 {
     opacity: 1;
     transform: translateY(-20px);
 }
-.container .card .content .imgBx
+.team-container .team-card .team-content .imgBx
 {
     position: relative;
     width: 150px;
@@ -84,7 +63,7 @@ section::after
     overflow: hidden;
     border: 10px solid rgba(0, 0, 0, 0.25);
 }
-.container .card .content .imgBx img
+.team-container .team-card .team-content .imgBx img
 {
     position: absolute;
     top: 0;
@@ -93,7 +72,7 @@ section::after
     height:100%;
     object-fit: cover;
 }
-.container .card .content .contentBx h3
+.team-container .team-card .team-content .contentBx h3
 {
     color: #fff;
     text-transform: uppercase;
@@ -104,19 +83,19 @@ section::after
     margin: 20px 0 10px;
     line-height: 1.1em;
 }
-.container .card .content .contentBx h3 span
+.team-container .team-card .team-content .contentBx h3 span
 {
     font-size: 12px;
     font-weight: 300;
     text-transform: initial;
 }
-.container .card .sci
+.team-container .team-card .sci
 {
     position: absolute;
     bottom: 50px;
     display: flex;
 }
-.container .card .sci li
+.team-container .team-card .sci li
 {
     list-style: none;
     margin: 0 10px;
@@ -125,27 +104,27 @@ section::after
     opacity: 0;
     transition-delay: calc(0.1s * var(--i));
 }
-.container .card:hover .sci li
+.team-container .team-card:hover .sci li
 {
     transform: translateY(0px);
     opacity: 1;
 }
-.container .card .sci li a
+.team-container .team-card .sci li a
 {
     color: #fff;
     font-size:24px;
 }
-h2 
+
+.team-section2 h2
 {
+    background-color:black;
+    min-height: 5vh;
+    font-size:40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #CFC547;
     text-align: center;
-    color: rgb(255, 255, 255);
-    background: linear-gradient(#001aff,#bebdbdd0);
-    clip-path: circle(40% at center 100%);
-    
-}
-@media (max-width:768px){
-    h2{
-        width:450px;
-        height:35px;
-    }
+    letter-spacing: 4px;
+    text-shadow: 16px 22px 11px rgba(168,158,32,0.8);
 }
