@@ -17,19 +17,42 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
+
+.nav-item:hover {
+  display:inline-block;
+  text-align:left;
+  text-decoration:none;
+  font-size:2em;
+  letter-spacing:2px;
+  color:#ffffff;
+  background: linear-gradient(145deg, #ff244e, #df1f42);
+  box-shadow:inset  4px 4px 8px #ad203a,
+            inset -4px -4px 8px #fd4a7d;
+}
+
+
 .dropdown-menu {
   font-size: 20px;
-  background-color: rgb(209, 203, 203);
-  color: rgb(255, 255, 255);
-  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  font-weight: bold; 
+}
+.dropdown-item:hover{
+  color:#ffffff;
+  background: linear-gradient(145deg, #ff244e, #df1f42);
+  box-shadow:inset  4px 4px 8px #ad203a,
+            inset -4px -4px 8px #fd4a7d;
 }
 .navbar {
+  background:white;
+  color:white;
   margin: 0 auto;
   padding: 16px;
 }
-.nav-item:hover {
-  border-bottom: 2px solid black;
-}
+/*.nav-item:hover {
+  border-bottom: 2px solid #f82249;
+}*/
+
 section {
   text-align: center;
   height: 100%;
@@ -43,8 +66,11 @@ section {
   bottom: 20px;
   height: 50px;
   width: 48px;
-  background-color: crimson;
-  box-shadow: 0px 0px 10px rgb(0, 0, 0.25);
+  border-radius:14px;
+  background-color: #f82249;
+  background: linear-gradient(145deg, #ff244e, #df1f42);
+  box-shadow: inset 5px 5px 9px #831227,
+              inset -5px -5px 9px #ff326b;
   border: none;
   cursor: pointer;
 }
@@ -187,6 +213,21 @@ section {
   margin-top: 40px;
 }
 
+.grid-container .right h3{
+  display:inline-block;
+  background:#f82249;
+  box-shadow: inset 2px 2px 4px #831227,
+             inset -2px -2px 4px #e6285e;
+
+  color:#fff;
+  border-radius:40px;
+  padding:10px 20px;
+  text-decoration: none;
+  font-size:1em;
+  margin-bottom:10px;
+  letter-spacing:2px;
+}
+
 @media (min-width: 880px) {
   .nss {
     margin-left: 50px;
@@ -253,6 +294,7 @@ section {
 .events {
   grid-area: event;
   background-color: rgba(0, 0, 0, 0.5);
+  
   box-sizing: border-box;
 }
 
@@ -288,6 +330,8 @@ section {
   position: relative;
   padding: 8% 40%;
   background-color: #262626;
+  box-shadow: inset 9px 9px 15px #0f0f0f,
+            inset -9px -9px 15px #3d3d3d;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -297,7 +341,9 @@ section {
 }
 
 .events ul li:hover .time {
-  background-color: #5e7cbc;
+  background: #f82249;
+  box-shadow: inset 8px 8px 20px #90142a,
+              inset -8px -8px 20px #ff3068;
 }
 
 .events ul li .time h2 {
@@ -315,7 +361,9 @@ section {
 .events ul li .details {
   grid-area: detail;
   padding: 20px 20px 32px;
-  background-color: #fff;
+  background: #e0e3eb;
+  box-shadow: inset 5px 5px 10px #afb1b7,
+              inset -5px -5px 10px #ffffff;
   box-sizing: border-box;
 }
 
@@ -342,9 +390,12 @@ section {
 }
 
 .events ul li .details a:hover {
-  background-color: #5e7cbc;
-  color: #fff;
-  border-color: #5e7cbc;
+  color:white;
+  border-color:#f82449;
+  background: #f82249;
+  box-shadow: inset 5px 5px 5px #c41b3a,
+              inset -5px -5px 5px #ff2958;
+
 }
 
 /*
@@ -352,9 +403,25 @@ Gallery
 */
 .gallery {
   height: 600px;
-  background-image: url(../Photos/gallery_bg.jpg);
-  background-repeat: no-repeat;
+ /* background-image: url(../Photos/gallery_bg.jpg);
+  background-repeat: no-repeat;*/
   background-size: 100% 100%;
+  background-color: #e0e0e0;
+}
+#gallery-h1{
+  display:inline-block;
+  background:#f82249;
+  box-shadow: inset 2px 2px 4px #831227,
+             inset -2px -2px 4px #e6285e;
+  color:#fff;
+  border-radius:40px;
+  padding:10px 80px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size:24px;
+  font-weight:bolder;
+  margin-bottom:10px;
+  letter-spacing:2px;
 }
 .galleries {
   margin: 10px 50px;
@@ -364,6 +431,11 @@ Gallery
   padding: 5px;
   filter: grayscale(100%);
   transition: 1s;
+  border-radius:20px;
+  background: #e0e0e0;
+  box-shadow: inset 9px 9px 10px #a6a6a6,
+              inset -9px -9px 10px #ffffff;
+  margin:5px;
 }
 .galleries img:hover {
   filter: grayscale(0);
@@ -371,6 +443,6 @@ Gallery
 }
 @media (max-width: 768px) {
   .gallery {
-    height: 1750px;
+    height: 1920px;
   }
 }
