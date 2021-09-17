@@ -27,13 +27,13 @@
   outline: none;
 }
 .contact-input{
-  border-radius: 8px;
+  border-radius: 4px;
   display:inline-block;
   margin:4px 4px;
   padding:4px 4px;
   background: #e7dee0;
-  box-shadow:  5px 5px 10px #a29b9d,
-               -5px -5px 10px #ffffff;
+  box-shadow: inset 5px 5px 10px #bdb6b8,
+              inset -5px -5px 10px #ffffff;
 }
 .contact-form button {
   background-color: #e05e02;
