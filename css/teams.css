@@ -129,12 +129,18 @@
     background: #131419;
 }
 h2 {
-    text-align: center;
+    display:inline-block;
     color: rgb(255, 255, 255);
-    background: linear-gradient(#001aff,#bebdbdd0);
-    clip-path: circle(60% at center 100%);
-    margin: 0;
-    padding: 0;
+    background:#f82249;
+    box-shadow: inset 2px 2px 4px #831227,
+               inset -2px -2px 4px #e6285e;
+  
+    border-radius:40px;
+    margin-bottom:0;
+    margin-top:14px;
+    margin-left:15px;
+    margin-right:15px;
+    padding: 4px 45px;
     font-family: 'Poppins', sans-serif;
     font-size:24px;
     font-weight:bolder;
