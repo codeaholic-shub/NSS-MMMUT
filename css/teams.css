@@ -86,7 +86,7 @@
 .team-container .team-card .team-content .contentBx h3
 {
     color: #fff;
-    text-transform: uppercase;
+    text-transform: initial;
     Letter-spacing: 2px;
     font-weight: 500;
     font-size: 18px;
