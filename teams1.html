@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/NSS-logo.png" type="image/x-icon" />
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+  <!-- stylesheet-css -->
+   
+  <link rel="preload" href="css/flippingCard.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="css/styles.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'"/>
+  <link rel="preload" href="css/contact.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'"/>
+  <link rel="preload" href="css/lightbox.min.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" />
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <link rel="preload" href="css/teams.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'">
+
+  <title>NSS-MMMUT</title>
+
+  <style>
+    /*  */
+    /* For pre loader  */
+    #pre-loader {
+      z-index: 99999;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: rgb(179, 179, 206) url(https://i.ibb.co/5j6Yrqc/loader.gif) center;
+      background-repeat: no-repeat;
+      background-size: 10rem;
+    }
+
+    /*  */
+    /*  */
+    .about {
+      width: 100vw;
+    }
+
+    .content {
+      margin-left: 1rem !important;
+      position: relative;
+      left: 30rem;
+    }
+  </style>
+
+
+</head>
+
+
+<!-- body -->
+
+<body onload="close_loader()">
+  <!-- preloader  -->
+  <div id="pre-loader">
+
+  </div>
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img class="navbar-brand" src="images/NSS-logo.png" alt="nss-logo-png" width="55.4rem" height="60.4rem" />
+    <a id="mmmut-tag" href=index.html>NSS-MMMUT</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home
+            <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><i class="fa fa-users"></i> Team
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="teams.html">Year 2020-21</a>
+            <a class="dropdown-item" href="teams1.html">Year 2021-22</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><i class="fa fa-calendar"></i> Events
+          </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="events.html">Year 2020-21</a>
+              <a class="dropdown-item" href="events1.html">Year 2021-22</a>
+            </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html"><i class="fa fa-image"></i> Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact_us.html"><i class="fa fa-phone"></i> Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- btn top -->
+  <button class="btn-to-top">
+    <i class="fa fa-arrow-up fa-2x"></i>
+  </button>
+
+    <!-- section 3 start-->
+    <section class="team-section2" id="2">
+      <h2>Faculty Coordinator</h2>
+    </section> 
+  <section class="team-section" id="2">
+    <div class="team-container">
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\one.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Prof. B.k Pandey<br/><span>Council of Student Activities, Chairman</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\two.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Dr. Awadesh Kumar<br /><span>Faculty Advisor</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="team-section2" id="2">
+    <h2> Our Core Member</h2>
+  </section>
+  <section class="team-section" id="2">
+    <div class="row row-50 justify-content-lg-center"></div>
+    <div class="team-container">
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\UttkarshPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>
+              Uttkarsh Singh<br /><span>Secretary (Boys)</span>
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/uttkarsh.singh.3538" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://twitter.com/uttkars58188220"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 1">
+            <a href="https://www.instagram.com/_je.rry_21_/" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Shiva.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Shiva Singh<br /><span>Secretary (Boys)</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/profile.php?id=100009541757865" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://twitter.com/Singhshiva0331"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/__.singhshiva/"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a
+              href="https://www.linkedin.com/in/shiva-singh-0057161b8/"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Shreya_gupta.jpg" /></div>
+          <div class="contentBx">
+            <h3>Shreya Gupta<br /><span>Secretary (Girls)</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/profile.php?id=100072478793472" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://twitter.com/ShreyaG67151662?t=FdOcKk4arh6pZWIXSJe9kw&s=08"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/_shreyagupta1111/"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a
+              href="https://www.linkedin.com/in/shreya-gupta-9b41bb197"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="team-section" id="3">
+    <div class="row row-30 justify-content-lg-center"></div>
+    <div class="team-container">
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\HarshvarshanPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>
+              Harshvardhan Upadhyay<br /><span>Joint Secretary, Editorial</span>
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/harshvardhan.upadhyay.54"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://twitter.com/Harshva20811196?s=09"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/upadhyay_harshvardhan/"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a
+              href="https://www.linkedin.com/in/harshvardhan-upadhyay-3993b3193"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\AniketYadavPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Aniket Yadav<br /><span>Joint Secretary, Editorial</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/profile.php?id=100009631751589"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://mobile.twitter.com/dCE02rOhQVsJGuc"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a
+              href="https://instagram.com/i_a_m_vairagi?utm_medium=copy_link"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a
+              href="https://www.linkedin.com/mwlite/in/aniket-yadav-1101361b2"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\AnkitaPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Ankita Yadav<br /><span>Joint Secretary, Editorial</span></h3>
+          </div>
+          </div> 
+        </div> 
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\SaloniPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Saloni Pandey<br /><span>Joint Secretary, Editorial</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/saloni.pandey.9847"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://instagram.com/__saloni_pandey__?utm_medium=copy_link"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\VaibhavPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>
+              Vaibhav Tripathi<br /><span>Joint Secretary, Technical</span>
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/vaibhav.tripathi.315865"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://www.instagram.com/kalkinrap/"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://mobile.twitter.com/Vaibhav_Tripo"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a
+              href="https://www.linkedin.com/in/vaibhav-tripathi-820005221/"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\ShubhankarPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>
+              Shubhankar Poddar<br /><span>Joint Secretary, Technical</span>
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/shubhankar.poddar.50/"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://twitter.com/ShubhankarPodd6"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/_s_h_u_b_h_a_n_k_a_r/"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/in/shubhankar-poddar-b58684193/"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Hashir_waqar.jpg" /></div>
+          <div class="contentBx">
+            <h3>
+              Hashir Waqar<br /><span>Joint Secretary, Technical</span>
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://m.facebook.com/profile.php?id=100041497992352&ref=content_filter"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a
+              href="https://instagram.com/iamh_ashir?utm_medium=copy_link"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\HarshitPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Harshit Singh<br /><span>Joint Secretary, Management</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/profile.php?id=100033146948532"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href=" https://twitter.com/Harshit49381684?s=08"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://instagram.com/am_harshit.__"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a
+              href=" https://www.linkedin.com/in/harshit-kumar-singh-905567213"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\AaminiPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Aamni Gupta<br /><span>Joint Secretary, Management</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://m.facebook.com/100024986568716/"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://mobile.twitter.com/aamnigupta35"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/definitely_awesome/"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/mwlite/in/aamni-gupta-5891121ab"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Shivam_singh.jpg" /></div>
+          <div class="contentBx">
+            <h3>Shivam Singh<br /><span>Joint Secretary, Management</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/shivamsingh.rajpoot.5680"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/shivam_rajput____________/"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Aniket_niranjan.jpg" /></div>
+          <div class="contentBx">
+            <h3>Aniket Niranjan<br /><span>Joint Secretary, Management</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/aniket.niranjan.12"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\ShreyaPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Shreya Singh<br /><span>Joint Secretary, Public Relation</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/profile.php?id=100040654192561"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://twitter.com/Shreya__S?s=08"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a
+              href="https://instagram.com/shreyasingh.__?utm_medium=copy_link"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/in/shreya-singh-421875176"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Mayank_rai.jpg" /></div>
+          <div class="contentBx">
+            <h3>Mayank Rai<br /><span>Joint Secretary, Public Relation</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://m.facebook.com/profile.php?id=100021470920091"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/romanempire74885/"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\MillerPic.jpeg" /></div>
+          <div class="contentBx">
+            <h3>Anubhav Miller<br /><span>Joint Secretary, Public Relation</span></h3>
+          </div>
+        </div>  
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/anubhav.miller"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://twitter.com/MillerAnubhav"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/mr_av_tech_info/"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/in/anubhav-miller-4035591a2/"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="team-section2" id="2">
+  <h2>Technical Team Member</h2>
+  </section> 
+  <section class="team-section" id="4">
+    
+    <div class="row row-30 justify-content-lg-center"></div>
+    <div class="team-container">
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Priyanshu_puri.jpg" /></div>
+          <div class="contentBx">
+            <h3>
+              Priyanshu Puri<br /><span>Computer Science And Engineering</span>
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/priyanshu.puri.94/"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://twitter.com/priyanshupuri0"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/priyanshupuri0/"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/in/priyanshu-p-7b0ab5125/"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\satwick_verma.jpg" /></div>
+          <div class="contentBx">
+            <h3>
+              Satwick Deep Verma<br /><span>Computer Science And Engineering</span>
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/satwickdeep.verma"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a
+              href="https://www.instagram.com/satwick_vr?r=nametag"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/in/satwick-verma-857095205"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Eshika_verma.jpg" /></div>
+          <div class="contentBx">
+            <h3>
+              Eshika Verma<br /><span>Electronics and Communication Engineering</span>
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 2">
+            <a href="https://twitter.com/Eshhiikkkaaa?t=u4mHDDbc0CFT3_r_Ff3tsA&s=09"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://instagram.com/eshhiikkkaaa?utm_medium=copy_link"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/in/eshika-verma-455801214"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Anshika_sharma.jpg" /></div>
+          <div class="contentBx">
+            <h3>
+              Anshika Sharma<br /><span
+                >Electronics and Communication Engineering</span>
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/profile.php?id=100061173912214"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Rohan_kumar.jpg" /></div>
+          <div class="contentBx">
+            <h3>
+              Rohan Kumar<br /><span
+                >Electronics and Communication Engineering</span
+              >
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/in/rohan-kumar-95532a188"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Anshika_maurya.jpg" /></div>
+          <div class="contentBx">
+            <h3>
+              Anshika Maurya<br /><span
+                >Civil Engineering</span
+              >
+            </h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/anshika.maurya.58958"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://mobile.twitter.com/anshika8858"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/mwlite/in/anshika-maurya-7716a0204"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Yash_srivastava.jpg" /></div>
+          <div class="contentBx">
+            <h3>Yash Srivastava<br /><span>Civil Engineering</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 2">
+            <a href="https://twitter.com/@YashSri74892052"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.instagram.com/yash_sri_21"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Manikant_kharwar.jpg" /></div>
+          <div class="contentBx">
+            <h3>Manikant Kharwar<br /><span>Civil Engineering</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/profile.php?id=100073432543463"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://twitter.com/KharwarManikant?s=08"target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://instagram.com/kharwarmanikant?utm_medium=copy_link"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Aryan_singh.jpg" /></div>
+          <div class="contentBx">
+            <h3>Aryan Singh<br /><span>Electrical Engineering</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/profile.php?id=100028364103829"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://instagram.com/aryxn.sxngh?utm_medium=copy_link"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li style="--i: 4">
+            <a href="https://www.linkedin.com/in/aryan-singh-496453183/"target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-card">
+        <div class="team-content">
+          <div class="imgBx"><img src="images\Aman_singh.jpg" /></div>
+          <div class="contentBx">
+            <h3>Aman Singh<br /><span>Chemical Engineering</span></h3>
+          </div>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.facebook.com/profile.php?id=100010667194083"target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://instagram.com/engineering_shayar?utm_medium=copy_link"target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
+  <section class="team-section2" id="2">
+    <h2>Executive Team Member</h2>
+    </section> 
+    <section class="team-section" id="4">
+      
+      <div class="row row-30 justify-content-lg-center"></div>
+      <div class="team-container">
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Akriti_raj.jpg" /></div>
+            <div class="contentBx">
+              <h3>
+                Akriti Raj<br /><span>Computer Science And Engineering</span>
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/profile.php?id=100067840328246"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a href="https://www.instagram.com/araj_akriti_?r=nametag"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Akash_pathak.jpg" /></div>
+            <div class="contentBx">
+              <h3>
+                Akash Pathak<br /><span>Electronics And Communication Engineering</span>
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/akash.pathak.5264382"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 2">
+              <a href="https://mobile.twitter.com/AkashPa77757276"target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a
+                href="https://www.instagram.com/akashpathak200/"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li style="--i: 4">
+              <a href="https://www.linkedin.com/mwlite/in/akash-pathak-48a240147"target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Ankit_tiwari.jpg" /></div>
+            <div class="contentBx">
+              <h3>
+                Ankit Tiwari<br /><span>Electronics And Communication Engineering</span>
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/profile.php?id=100020285731267"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a href="https://www.instagram.com/ankittiwari2002r/"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Shivendra_chaurasia.jpg" /></div>
+            <div class="contentBx">
+              <h3>
+                Shivendra Chaurasia<br /><span
+                  >Electronics and Communication Engineering</span
+                >
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 3">
+              <a href="https://www.instagram.com/chaurasia.shivendra/"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li style="--i: 4">
+              <a href="https://www.linkedin.com/in/shivendra-chaurasia-3925551b7" target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Ashvini_rai.jpg" /></div>
+            <div class="contentBx">
+              <h3>
+                Ashvini Rai<br /><span
+                  >Civil Engineering</span
+                >
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 2">
+              <a href="https://twitter.com/AshviniRai8?t=rSlcZLObfkc1uR7UEysl-Q&s=09"target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a
+                href="https://instagram.com/_ashvini_rai?utm_medium=copy_link"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Abhay_kumar_singh.jpg" /></div>
+            <div class="contentBx">
+              <h3>
+                Abhay Kumar Singh<br /><span
+                  >Civil Engineering</span
+                >
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 2">
+              <a href="https://twitter.com/AbhaySi75506963?t=pFqgUNOuc9CTAOFrw4iDww&s=09"target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a
+                href="https://instagram.com/_its_abhay_singh_?utm_medium=copy_link"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li style="--i: 4">
+              <a href="https://www.linkedin.com/in/abhay-kumar-singh-3b98a41bb"target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Vaibhav_srivastava.jpg" /></div>
+            <div class="contentBx">
+              <h3>Vaibhav Srivastava<br /><span>Civil Engineering</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/vaibhav.srivastava.319247"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 2">
+              <a href="https://twitter.com/VAIBHAV94818904?t=xOc6qSJSpgbNNDibXC-dcA&s=08"target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a href="https://instagram.com/srivastavaa09?utm_medium=copy_link"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li style="--i: 4">
+              <a href="https://www.linkedin.com/in/vaibhav-srivastava-6493b7218"target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Abhishek_mishra.jpg" /></div>
+            <div class="contentBx">
+              <h3>Abhishek Mishra<br /><span>Mechanical Engineering</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/profile.php?id=100007399570676"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a href="https://instagram.com/abhishekmishra3075?utm_medium=copy_link"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Priya_patel.jpg" /></div>
+            <div class="contentBx">
+              <h3>Priya Patel<br /><span>Mechanical Engineering</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/profile.php?id=100069790830722"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a href="https://instagram.com/p_riya_2390?utm_medium=copy_link"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Anmol_pandey.jpg" /></div>
+            <div class="contentBx">
+              <h3>Anmol Pandey<br /><span>Chemical Engineering</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/anmol.pandey.12720100"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 2">
+              <a href="https://twitter.com/real_hecker?t=EgGyq9_hEwQCEArj6t1ZUg&s=08"target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a href="https://instagram.com/unofficially_anmol?utm_medium=copy_link"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li style="--i: 4">
+              <a href="https://www.linkedin.com/in/anmol-pandey-241942218"target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Anurag_gupta.jpeg" /></div>
+            <div class="contentBx">
+              <h3>Anurag Gupta<br /><span>Chemical Engineering</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/profile.php?id=100028350600611"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 2">
+              <a href="https://twitter.com/@AnuragG79780085"target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a href="https://www.instagram.com/captain_anu_000/"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Divyanshu.jpeg " /></div>
+            <div class="contentBx">
+              <h3>Divyanshu Dubey<br /><span>Information Technology</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 2">
+              <a
+                href="https://www.instagram.com/ddivyanshu9"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li style="--i: 4">
+              <a
+                href="https://www.linkedin.com/in/divyanshu-dubey-6922a5205"target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Nishtha_singh.jpg" /></div>
+            <div class="contentBx">
+              <h3>Nishtha Singh<br /><span>Information Technology</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 3">
+              <a href="https://instagram.com/vats_nishtha?utm_medium=copy_link"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li style="--i: 4">
+              <a
+                href="https://www.linkedin.com/in/nishtha-singh-6a768020a"target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Ritika_yadav.jpeg" /></div>
+            <div class="contentBx">
+              <h3>
+                Ritika Yadav<br /><span
+                  >Electrical Engineering</span
+                >
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://m.facebook.com/100011470561667/"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 2">
+              <a href="https://twitter.com/RitikaY68015558?t=eXpbp3NDDtbTiu0r0SrGaw&s=08"target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a
+                href="https://www.instagram.com/p/CTpV7z8PtGzHytoK8vbBTI69h_ncxKLwsa-LUY0/?utm_medium=share_shee"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li style="--i: 4">
+              <a
+                href="https://www.linkedin.com/in/ritika-yadav-74bb58213"target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Sudhir_mishra.jpg" /></div>
+            <div class="contentBx">
+              <h3>
+                Sudhir Mishra<br /><span>Electrical Engineering</span>
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/sudhir.mishar.39"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 1">
+              <a href="https://instagram.com/sudhir_mishra45"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            </ul>
+        </div>
+    
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Shruti_pandey.jpg" /></div>
+            <div class="contentBx">
+              <h3>
+                Shruti Pandey<br /><span
+                  >Bachelor of Business Administration</span
+                >
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/profile.php?id=100035062830984"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li style="--i: 2">
+              <a href="https://twitter.com/shrutipandey___?t=gb_jYZU1sy2fZ7loSVl6RQ&s=08"target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a href="https://instagram.com/shrutipandey____?utm_medium=copy_link"target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li style="--i: 4">
+              <a
+                href="https://www.linkedin.com/in/shruti-pandey-31533b219"target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-content">
+            <div class="imgBx"><img src="images\Muzammil_ali.jpg" /></div>
+            <div class="contentBx">
+              <h3>
+                Muzamil Ali<br /><span
+                  >Electrical Engineering</span
+                >
+              </h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://www.facebook.com/profile.php?id=100070765350775"target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+      <!-- section 3 ends -->
+  <!-- boostrap js start -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+  <!-- bootstrap js ends -->
+
+  <!-- btn-to-top script start -->
+  <script>
+    const btn = document.querySelector('.btn-to-top');
+    btn.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+      });
+    })
+  </script>
+  <!-- btn-to-top script ends-->
+
+  <!-- preloader script starts-->
+  <script>
+    function close_loader() {
+      document.getElementById('pre-loader').style.display = 'none';
+    }
+  </script>
+  <!-- preloader script end-->
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="left">
+            <div class="left-content">
+              <img id="logo1" src="images/NSS-logo.png" alt="LogoNSS">
+              <img id="logo2" src="images/mmm.png" alt="LogoMMM">
+            </div>
+            <div class="left-content">
+
+              <p class="nss">
+                National Service Scheme(NSS),<br> an initiative by the<br> Government of India,<br> provides hands-on
+                <br>
+                experience in community services <br> to young students.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <div class="right">
+            <h3 class="underline-small"> <strong> Contact Us :- </strong> </h3>
+            <p id="details">
+              <i class="fa fa-map-marker" aria-hidden="true"></i> MMMUT, Gorakhpur, U.P, India <br>
+              <i class="fa fa-envelope" aria-hidden="true"></i><strong> Email: </strong> nss20.mmmut@gmail.com <br>
+            </p>
+            <div class="social-links">
+              <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+
+              <a href="https://www.facebook.com/nssmmmutgkp/" class="facebook"><i
+                  class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/nss_mmmut/" class="instagram"><i
+                  class="fa fa-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> -->
+              <a href="https://t.me/joinchat/TZMqcZzqtCfJbP0v" class="linkedin"><i
+                  class="fa fa-telegram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>NSS MMMUT , GKP</strong>. All Rights Reserved <br> Designed by <a
+          href="https://github.com/codeaholic-shub/NSS-MMMUT" style="color: #f82249"> Shubhankar & Team </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

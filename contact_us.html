@@ -53,6 +53,14 @@
       position: relative;
       left: 30rem;
     }
+    #submit-button:active
+    {
+      background-color: brown;
+    }
+    .contactForm
+    {
+      border-radius: 5px;
+    }
   </style>
 
 
@@ -88,10 +96,18 @@
 
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="teams.html">Year 2020-21</a>
+            <a class="dropdown-item" href="teams1.html">Year 2021-22</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="events.html"><i class="fa fa-calendar"></i> Events</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><i class="fa fa-calendar"></i> Events
+          </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="events.html">Year 2020-21</a>
+              <a class="dropdown-item" href="events1.html">Year 2021-22</a>
+            </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="gallery.html"><i class="fa fa-image"></i> Gallery</a>
@@ -120,7 +136,7 @@
       <form action="https://formsubmit.co/nss20.mmmut@gmail.com" method="POST">
         <h2> Send Message </h2>
         <div class="inputBox">
-          <input class="contact-input" type="text" name="name" required="required">
+          <input class="contact-input" type="text" name="name" required="required" style="text-transform: capitalize;">
           <span>Full Name</span>
         </div>
         <div class="inputBox">
@@ -128,11 +144,11 @@
           <span>Email</span>
         </div>
         <div class="inputBox">
-          <textarea class="contact-input" type="text" name="message" required="required"></textarea>
+          <textarea class="contact-input" type="text" name="message" required="required" style="text-transform: capitalize;"></textarea>
           <span> Type Your Message ... </span>
         </div>
         <div class="inputBox">
-          <input type="submit" name="" value="Send">
+          <input type="submit" name="" value="Send" id="submit-button">
         </div>
         <!-- ||||||||||||||| -->
 
